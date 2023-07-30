@@ -12,6 +12,7 @@ class MidjourneyClient {
         ServerId: process.env.SERVER_ID,
         ChannelId: process.env.CHANNEL_ID,
         SalaiToken: token,
+        HuggingFaceToken: process.env.HUGGING_FACE_TOKEN, // important from preventing ban
         Debug: true,
         Ws: true,
       });
